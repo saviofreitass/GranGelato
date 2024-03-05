@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+body h1,p,li{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(255,207,0);
+    text-align: center;
+}
+
+.navbar{
+    margin-top: 10px;
+    padding: 15px 0px;
+}
+.navbar a{
+    color: #000;
+    text-decoration: none;
+    border: #000 2px solid;
+    padding: 12px 190px;
+}
+
+.navbar a:hover{
+    background-color:#fabe16;
+}
+
+.about{
+    text-align: center;
+    border: #000 1px solid;
+    margin: 22px;
+}
+
+.about h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.about p{
+    margin: 20px;
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+.about img{
+    width: 500px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.equipe li{
+    border: #000 1px solid;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+
+.equipe p{
+    font-size: 20px;
+}
+
+.equipe img{
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+ .equipe li{
+    list-style: none;
+ }
+
+.produtos{
+    text-align: center;
+}
+
+.produtos li{
+    margin: 10px 20px 0 -15px;
+    list-style: none;
+    border: #000 1px solid;
+    padding: 15px 0;
+}
+
+.produtos img{
+    width: 280px;
+}
+
+.produtos span{
+    font-size: 20px;
+    background-color: rgb(255,207,0);
+}
+
+.tittlePage{
+    font-size: 50px;
+    margin: 10px 20px;
+}
+
+.itens{
+    text-align: center;
+    margin: 20px 500px;
+    list-style: none;
+    border: #000 1px solid ;
+    width: 250px;
+    height: 250px;
+}
+
+.itens img{
+    margin: 50px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.itens p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.itens:hover{
+    cursor: pointer;
+    background-color: rgb(255,207,0);
+}
+
+footer{
+    padding-top: 30px;
+    height: 40px;
+    background-color: rgb(255,207,0) ;
+    text-align: center;
+}
